@@ -91,7 +91,11 @@ public class SayisalLoto_Array_Version {
         }
         // arrayi yazdir.
         for (int i = 0; i < sayilar.length; i++) {
+            if(i == sayilar.length-1)
+                System.out.println(sayilar[i]);
+            else
             System.out.print(sayilar[i]+"-");
+
         }
 
 
