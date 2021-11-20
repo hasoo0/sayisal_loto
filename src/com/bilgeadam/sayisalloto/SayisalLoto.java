@@ -14,7 +14,7 @@ public class SayisalLoto {
     public static void main(String[] args) {
         SayisalLoto loto = new SayisalLoto();
 
-        for (int i=1; 1<=10; i++){
+        for (int i=1; 1<=6; i++){
             System.out.println(loto.sayiGetir(49));
         }
 
